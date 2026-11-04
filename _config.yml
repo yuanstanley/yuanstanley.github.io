@@ -1,0 +1,15 @@
+title: Stanley Yuan
+description: Personal website and blog
+url: "https://yuanstanley.github.io"
+baseurl: ""
+author: Stanley Yuan
+github_username: yuanstanley
+
+permalink: /blog/:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
