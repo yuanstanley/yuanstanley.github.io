@@ -38,9 +38,6 @@ h2 { font-size: 1.3rem; margin-top: 2.25rem; }
   border-bottom: 1px solid var(--border);
 }
 .site-title { font-weight: 700; font-size: 1.1rem; color: var(--text); }
-.site-header nav a { margin-left: 1rem; color: var(--muted); }
-.site-header nav a:first-child { margin-left: 0; }
-.site-header nav a:hover { color: var(--accent); }
 .meta { color: var(--muted); font-size: 0.9rem; }
 .post-list { list-style: none; padding: 0; }
 .post-list li { padding: 0.4rem 0; }

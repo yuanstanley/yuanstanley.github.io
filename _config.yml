@@ -5,7 +5,7 @@ baseurl: ""
 author: Stanley Yuan
 github_username: yuanstanley
 
-permalink: /blog/:year/:month/:day/:title/
+permalink: /writing/:title/
 markdown: kramdown
 plugins:
   - jekyll-feed

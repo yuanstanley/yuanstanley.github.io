@@ -1,22 +1,20 @@
 ---
 layout: default
-title: About
+title: Home
 ---
 
 # Hi, I'm Stanley 👋
 
-Welcome to my corner of the internet. *(Edit this in `index.md` — add a sentence or two about who you are, what you work on, and what you're interested in.)*
+*(Edit this in `index.md`: a few sentences about who you are, what you work on, and what you're interested in.)*
 
-## What I'm up to
+## Writing
 
-- Something I'm working on
-- Something I'm learning
-- Something I'm excited about
-
-## Recent posts
-
+{% if site.posts.size > 0 %}
 <ul class="post-list">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts %}
   <li><span class="meta">{{ post.date | date: "%b %-d, %Y" }}</span> <a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
 {% endfor %}
 </ul>
+{% else %}
+<p class="meta">Nothing here yet.</p>
+{% endif %}

@@ -1,10 +1,19 @@
 # yuanstanley.github.io
 
-Personal website and blog, built with Jekyll and hosted on GitHub Pages.
+Personal website, built with Jekyll and hosted on GitHub Pages: one home page (About + a list of writings).
 
-- Edit the homepage: `index.md`
-- Write a post: add `_posts/YYYY-MM-DD-title.md`
-- Styles: `assets/css/style.css`
-- Site settings: `_config.yml`
+- **Edit the About section:** `index.md`
+- **Add a writing:** create `_posts/YYYY-MM-DD-slug.md` starting with
 
-Push to `main` and GitHub Pages rebuilds the site at https://yuanstanley.github.io
+  ```
+  ---
+  layout: post
+  title: "Your title"
+  ---
+  ```
+
+  It appears on the home page automatically, at `/writing/slug/`.
+- **Styles:** `assets/css/style.css`
+- **Site settings:** `_config.yml`
+
+Commit and push to `main`; GitHub Pages rebuilds https://yuanstanley.github.io in about a minute.

@@ -14,4 +14,4 @@ title: "My post title"
 ---
 ```
 
-Then commit and push — GitHub Pages rebuilds the site automatically.
+Then commit and push. It shows up on the home page automatically. (Feel free to delete this post.)
